@@ -1,0 +1,60 @@
+#app {
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  height: auto;
+
+}
+
+#app .container {
+  width: 376px;
+  height: 666px;
+  z-index: 100;
+
+  background: white;
+  border-radius: 3px;
+  box-shadow: 0 0 5px 0 rgba(0, 0, 0, .9);
+  overflow-y: auto;
+}
+
+#app .container-view {
+  padding: 20px;
+}
+
+.date{
+  text-align: center;
+  color: gray;
+}
+
+.collapsible{
+  width: 100%;
+  border-style: double;
+  margin-bottom: 10px;
+  background-color: darkgray;
+  padding-bottom: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 20px;
+  font-size: medium;
+}
+
+.collapsibleopen{
+  text-align: center;
+  border-style: double;
+  background-color: darkgray;
+  font-size: medium;
+}
+.btn{
+  background-color: rgb(228, 68, 121);
+  color: white;
+  padding: 16px 32px; 
+  margin: 4px 2px;
+  text-align: center;
+  width: 30%;
+}
